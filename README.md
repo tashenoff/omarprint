@@ -1,4 +1,4 @@
-# Лендинг «CleanPrint»
+# Лендинг «OmarPrint.com»
 
 Стек: Vite + React + TailwindCSS.
 

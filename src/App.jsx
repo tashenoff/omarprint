@@ -29,10 +29,10 @@ const steps = [
 ];
 
 const prices = [
-  { name: "Лазерный ч/б", note: "HP / Canon / Samsung", price: "от 3 500 ₸" },
-  { name: "Лазерный цветной", note: "CMYK комплект", price: "от 13 500 ₸" },
-  { name: "Струйный", note: "Промывка + чернила", price: "от 4 500 ₸" },
-  { name: "Абонемент", note: "10 заправок в месяц", price: "скидка 20%" },
+  { name: "Лазерный ч/б", note: "HP / Canon / Samsung", price: "по договоренности" },
+  { name: "Лазерный цветной", note: "CMYK комплект", price: "по договоренности" },
+  { name: "Струйный", note: "Промывка + чернила", price: "по договоренности" },
+  { name: "Абонемент", note: "10 заправок в месяц", price: "условия согласуем" },
 ];
 
 function Pill({ children }) {
@@ -83,7 +83,7 @@ export default function App() {
           </div>
           <div>
             <p className="text-sm text-mist">Сервис картриджей</p>
-            <p className="text-lg font-semibold text-white">CleanPrint</p>
+            <p className="text-lg font-semibold text-white">OmarPrint.com</p>
           </div>
         </div>
         <div className="hidden items-center gap-3 md:flex">
@@ -201,8 +201,8 @@ export default function App() {
             ))}
           </div>
           <p className="text-sm text-mist">
-            Точная стоимость зависит от модели картриджа и состояния. Скажем цену до выезда и не меняем её без вашего
-            согласия.
+            Точная стоимость зависит от модели картриджа и состояния. Скажем цену перед выездом и не меняем её без
+            вашего согласия.
           </p>
         </section>
 
@@ -243,7 +243,7 @@ export default function App() {
       <footer className="relative z-10 mx-auto max-w-6xl px-6 pb-10 pt-6">
         <div className="glass flex flex-col gap-3 rounded-2xl px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <p className="text-white font-semibold">CleanPrint · заправка картриджей</p>
+            <p className="text-white font-semibold">OmarPrint.com · заправка картриджей</p>
             <p className="text-sm text-mist">Работаем без адреса офиса — выезд и доставка по вашему запросу.</p>
           </div>
           <div className="flex flex-wrap gap-3">
